@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.hakan.core.proxy.client"},{"l":"com.hakan.core.proxy.client.utils"}];updateSearchResults();

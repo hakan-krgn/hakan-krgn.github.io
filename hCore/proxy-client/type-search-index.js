@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.hakan.core.proxy.client.utils","l":"Serializer"},{"p":"com.hakan.core.proxy.client","l":"SocketConnection"},{"p":"com.hakan.core.proxy.client.utils","l":"Validate"}];updateSearchResults();
