@@ -1,13 +1,16 @@
 com.hakan.core
 com.hakan.core.command
 com.hakan.core.command.executors.base
+com.hakan.core.command.executors.placeholder
 com.hakan.core.command.executors.sub
 com.hakan.core.command.listeners
 com.hakan.core.command.utils
 com.hakan.core.database
 com.hakan.core.hologram
 com.hakan.core.hologram.line
-com.hakan.core.hologram.line.entity
+com.hakan.core.hologram.line.empty
+com.hakan.core.hologram.line.item
+com.hakan.core.hologram.line.text
 com.hakan.core.hologram.util
 com.hakan.core.item
 com.hakan.core.item.nbt

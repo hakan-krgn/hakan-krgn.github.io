@@ -128,55 +128,85 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="BaseCommandData.html" title="class in com.hakan.core.command.executors.base">BaseCommandData</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addSubCommand(com.hakan.core.command.executors.sub.SubCommandData)" class="member-name-link">addSubCommand</a><wbr>(<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&nbsp;subCommand)</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addPlaceholder(com.hakan.core.command.executors.placeholder.PlaceholderData)" class="member-name-link">addPlaceholder</a><wbr>(<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&nbsp;placeholder)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Adds placeholder.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="BaseCommandData.html" title="class in com.hakan.core.command.executors.base">BaseCommandData</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addSubCommand(com.hakan.core.command.executors.sub.SubCommandData)" class="member-name-link">addSubCommand</a><wbr>(<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&nbsp;subCommand)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Adds sub command.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&gt;</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#findSubCommand(java.lang.String%5B%5D)" class="member-name-link">findSubCommand</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;subCommands)</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#findPlaceholderByArg(java.lang.String)" class="member-name-link">findPlaceholderByArg</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;arg)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Finds placeholder by name.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#findPlaceholderByName(java.lang.String)" class="member-name-link">findPlaceholderByName</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Finds placeholder by name.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#findSubCommand(java.lang.String%5B%5D)" class="member-name-link">findSubCommand</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;subCommands)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Finds sub command by arguments.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAdapter()" class="member-name-link">getAdapter</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAdapter()" class="member-name-link">getAdapter</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Gets adapter class from annotation.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAliases()" class="member-name-link">getAliases</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Gets command description from annotation.</div>
-</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getDescription()" class="member-name-link">getDescription</a>()</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAliases()" class="member-name-link">getAliases</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Gets command description from annotation.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getName()" class="member-name-link">getName</a>()</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getDescription()" class="member-name-link">getDescription</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Gets command name from annotation.</div>
-</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&gt;</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getSubCommands()" class="member-name-link">getSubCommands</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Gets sub commands from annotated class.</div>
-</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&gt;</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getSubCommandsSafe()" class="member-name-link">getSubCommandsSafe</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Gets sub commands from annotated class as safe.</div>
+<div class="block">Gets command description from annotation.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getUsage()" class="member-name-link">getUsage</a>()</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getName()" class="member-name-link">getName</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Gets command name from annotation.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getPlaceholders()" class="member-name-link">getPlaceholders</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Gets placeholders from annotated class.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getPlaceholdersSafe()" class="member-name-link">getPlaceholdersSafe</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Gets placeholders from annotated class.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&gt;</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getSubCommands()" class="member-name-link">getSubCommands</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Gets sub commands from annotated class.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&gt;</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getSubCommandsSafe()" class="member-name-link">getSubCommandsSafe</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Gets sub commands from annotated class as safe.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getUsage()" class="member-name-link">getUsage</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Gets command usage from annotation.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#register()" class="member-name-link">register</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#register()" class="member-name-link">register</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Registers command to server.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#removePlaceholder(com.hakan.core.command.executors.placeholder.PlaceholderData)" class="member-name-link">removePlaceholder</a><wbr>(<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&nbsp;placeholder)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Removes placeholder.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="BaseCommandData.html" title="class in com.hakan.core.command.executors.base">BaseCommandData</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#removeSubCommand(com.hakan.core.command.executors.sub.SubCommandData)" class="member-name-link">removeSubCommand</a><wbr>(<a href="../sub/SubCommandData.html" title="class in com.hakan.core.command.executors.sub">SubCommandData</a>&nbsp;subCommand)</code></div>
@@ -313,6 +343,30 @@ loadScripts(document, 'script');</script>
 </section>
 </li>
 <li>
+<section class="detail" id="getPlaceholdersSafe()">
+<h3>getPlaceholdersSafe</h3>
+<div class="member-signature"><span class="annotations">@Nonnull
+</span><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</span>&nbsp;<span class="element-name">getPlaceholdersSafe</span>()</div>
+<div class="block">Gets placeholders from annotated class.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>Placeholders from annotated class.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getPlaceholders()">
+<h3>getPlaceholders</h3>
+<div class="member-signature"><span class="annotations">@Nonnull
+</span><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</span>&nbsp;<span class="element-name">getPlaceholders</span>()</div>
+<div class="block">Gets placeholders from annotated class.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>Placeholders from annotated class.</dd>
+</dl>
+</section>
+</li>
+<li>
 <section class="detail" id="addSubCommand(com.hakan.core.command.executors.sub.SubCommandData)">
 <h3>addSubCommand</h3>
 <div class="member-signature"><span class="annotations">@Nonnull
@@ -354,6 +408,60 @@ loadScripts(document, 'script');</script>
 <dd><code>subCommands</code> - Sub command args.</dd>
 <dt>Returns:</dt>
 <dd>SubCommandData as Optional.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="addPlaceholder(com.hakan.core.command.executors.placeholder.PlaceholderData)">
+<h3>addPlaceholder</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">addPlaceholder</span><wbr><span class="parameters">(@Nonnull
+ <a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&nbsp;placeholder)</span></div>
+<div class="block">Adds placeholder.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>placeholder</code> - PlaceholderData class.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="removePlaceholder(com.hakan.core.command.executors.placeholder.PlaceholderData)">
+<h3>removePlaceholder</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">removePlaceholder</span><wbr><span class="parameters">(@Nonnull
+ <a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&nbsp;placeholder)</span></div>
+<div class="block">Removes placeholder.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>placeholder</code> - PlaceholderData class.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="findPlaceholderByName(java.lang.String)">
+<h3>findPlaceholderByName</h3>
+<div class="member-signature"><span class="annotations">@Nonnull
+</span><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</span>&nbsp;<span class="element-name">findPlaceholderByName</span><wbr><span class="parameters">(@Nonnull
+ <a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
+<div class="block">Finds placeholder by name.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>name</code> - Placeholder name.</dd>
+<dt>Returns:</dt>
+<dd>Placeholder values.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="findPlaceholderByArg(java.lang.String)">
+<h3>findPlaceholderByArg</h3>
+<div class="member-signature"><span class="annotations">@Nonnull
+</span><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../placeholder/PlaceholderData.html" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a>&gt;</span>&nbsp;<span class="element-name">findPlaceholderByArg</span><wbr><span class="parameters">(@Nonnull
+ <a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;arg)</span></div>
+<div class="block">Finds placeholder by name.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>arg</code> - Argument.</dd>
+<dt>Returns:</dt>
+<dd>Placeholder values.</dd>
 </dl>
 </section>
 </li>

@@ -53,13 +53,16 @@ loadScripts(document, 'script');</script>
 <li><a href="com/hakan/core/package-tree.html">com.hakan.core</a>, </li>
 <li><a href="com/hakan/core/command/package-tree.html">com.hakan.core.command</a>, </li>
 <li><a href="com/hakan/core/command/executors/base/package-tree.html">com.hakan.core.command.executors.base</a>, </li>
+<li><a href="com/hakan/core/command/executors/placeholder/package-tree.html">com.hakan.core.command.executors.placeholder</a>, </li>
 <li><a href="com/hakan/core/command/executors/sub/package-tree.html">com.hakan.core.command.executors.sub</a>, </li>
 <li><a href="com/hakan/core/command/listeners/package-tree.html">com.hakan.core.command.listeners</a>, </li>
 <li><a href="com/hakan/core/command/utils/package-tree.html">com.hakan.core.command.utils</a>, </li>
 <li><a href="com/hakan/core/database/package-tree.html">com.hakan.core.database</a>, </li>
 <li><a href="com/hakan/core/hologram/package-tree.html">com.hakan.core.hologram</a>, </li>
 <li><a href="com/hakan/core/hologram/line/package-tree.html">com.hakan.core.hologram.line</a>, </li>
-<li><a href="com/hakan/core/hologram/line/entity/package-tree.html">com.hakan.core.hologram.line.entity</a>, </li>
+<li><a href="com/hakan/core/hologram/line/empty/package-tree.html">com.hakan.core.hologram.line.empty</a>, </li>
+<li><a href="com/hakan/core/hologram/line/item/package-tree.html">com.hakan.core.hologram.line.item</a>, </li>
+<li><a href="com/hakan/core/hologram/line/text/package-tree.html">com.hakan.core.hologram.line.text</a>, </li>
 <li><a href="com/hakan/core/hologram/util/package-tree.html">com.hakan.core.hologram.util</a>, </li>
 <li><a href="com/hakan/core/item/package-tree.html">com.hakan.core.item</a>, </li>
 <li><a href="com/hakan/core/item/nbt/package-tree.html">com.hakan.core.item.nbt</a>, </li>
@@ -151,6 +154,7 @@ loadScripts(document, 'script');</script>
 <li class="circle">com.hakan.core.database.<a href="com/hakan/core/database/DatabaseHandler.html" class="type-name-link" title="class in com.hakan.core.database">DatabaseHandler</a></li>
 <li class="circle">com.hakan.core.database.<a href="com/hakan/core/database/DatabaseProvider.html" class="type-name-link" title="class in com.hakan.core.database">DatabaseProvider</a>&lt;T&gt;</li>
 <li class="circle">com.hakan.core.database.<a href="com/hakan/core/database/DatabaseUpdater.html" class="type-name-link" title="class in com.hakan.core.database">DatabaseUpdater</a>&lt;T&gt;</li>
+<li class="circle">com.hakan.core.hologram.line.empty.<a href="com/hakan/core/hologram/line/empty/EmptyLine.html" class="type-name-link" title="class in com.hakan.core.hologram.line.empty">EmptyLine</a> (implements com.hakan.core.hologram.line.<a href="com/hakan/core/hologram/line/HologramLine.html" title="interface in com.hakan.core.hologram.line">HologramLine</a>)</li>
 <li class="circle">org.bukkit.event.Event
 <ul>
 <li class="circle">com.hakan.core.npc.events.<a href="com/hakan/core/npc/events/HNpcClickEvent.html" class="type-name-link" title="class in com.hakan.core.npc.events">HNpcClickEvent</a></li>
@@ -167,7 +171,6 @@ loadScripts(document, 'script');</script>
 <li class="circle">com.hakan.core.<a href="com/hakan/core/HCore.html" class="type-name-link" title="class in com.hakan.core">HCore</a></li>
 <li class="circle">com.hakan.core.hologram.<a href="com/hakan/core/hologram/HHologram.html" class="type-name-link" title="class in com.hakan.core.hologram">HHologram</a></li>
 <li class="circle">com.hakan.core.hologram.<a href="com/hakan/core/hologram/HHologramHandler.html" class="type-name-link" title="class in com.hakan.core.hologram">HHologramHandler</a></li>
-<li class="circle">com.hakan.core.hologram.line.<a href="com/hakan/core/hologram/line/HHologramLine.html" class="type-name-link" title="class in com.hakan.core.hologram.line">HHologramLine</a></li>
 <li class="circle">com.hakan.core.hologram.util.<a href="com/hakan/core/hologram/util/HHologramUtils.html" class="type-name-link" title="class in com.hakan.core.hologram.util">HHologramUtils</a></li>
 <li class="circle">com.hakan.core.ui.inventory.<a href="com/hakan/core/ui/inventory/HInventory.html" class="type-name-link" title="class in com.hakan.core.ui.inventory">HInventory</a> (implements com.hakan.core.ui.<a href="com/hakan/core/ui/GUI.html" title="interface in com.hakan.core.ui">GUI</a>)</li>
 <li class="circle">com.hakan.core.ui.inventory.builder.<a href="com/hakan/core/ui/inventory/builder/HInventoryBuilder.html" class="type-name-link" title="class in com.hakan.core.ui.inventory.builder">HInventoryBuilder</a></li>
@@ -219,6 +222,7 @@ loadScripts(document, 'script');</script>
 <li class="circle">com.hakan.core.utils.hooks.<a href="com/hakan/core/utils/hooks/Metrics.MetricsBase.html" class="type-name-link" title="class in com.hakan.core.utils.hooks">Metrics.MetricsBase</a></li>
 <li class="circle">com.hakan.core.ui.inventory.pagination.<a href="com/hakan/core/ui/inventory/pagination/Page.html" class="type-name-link" title="class in com.hakan.core.ui.inventory.pagination">Page</a></li>
 <li class="circle">com.hakan.core.ui.inventory.pagination.<a href="com/hakan/core/ui/inventory/pagination/Pagination.html" class="type-name-link" title="class in com.hakan.core.ui.inventory.pagination">Pagination</a></li>
+<li class="circle">com.hakan.core.command.executors.placeholder.<a href="com/hakan/core/command/executors/placeholder/PlaceholderData.html" class="type-name-link" title="class in com.hakan.core.command.executors.placeholder">PlaceholderData</a></li>
 <li class="circle">com.hakan.core.utils.query.<a href="com/hakan/core/utils/query/QueryBuilder.html" class="type-name-link" title="class in com.hakan.core.utils.query">QueryBuilder</a>
 <ul>
 <li class="circle">com.hakan.core.utils.query.create.<a href="com/hakan/core/utils/query/create/CreateQuery.html" class="type-name-link" title="class in com.hakan.core.utils.query.create">CreateQuery</a></li>
@@ -249,9 +253,14 @@ loadScripts(document, 'script');</script>
 <li class="circle">com.hakan.core.ui.<a href="com/hakan/core/ui/GUI.html" class="type-name-link" title="interface in com.hakan.core.ui">GUI</a></li>
 <li class="circle">com.hakan.core.message.actionbar.<a href="com/hakan/core/message/actionbar/HActionBarHandler.html" class="type-name-link" title="interface in com.hakan.core.message.actionbar">HActionBarHandler</a></li>
 <li class="circle">com.hakan.core.message.bossbar.<a href="com/hakan/core/message/bossbar/HBossBar.html" class="type-name-link" title="interface in com.hakan.core.message.bossbar">HBossBar</a></li>
-<li class="circle">com.hakan.core.hologram.line.entity.<a href="com/hakan/core/hologram/line/entity/HHologramArmorStand.html" class="type-name-link" title="interface in com.hakan.core.hologram.line.entity">HHologramArmorStand</a></li>
 <li class="circle">com.hakan.core.item.nbt.<a href="com/hakan/core/item/nbt/HNbtManager.html" class="type-name-link" title="interface in com.hakan.core.item.nbt">HNbtManager</a></li>
 <li class="circle">com.hakan.core.npc.entity.<a href="com/hakan/core/npc/entity/HNpcEntity.html" class="type-name-link" title="interface in com.hakan.core.npc.entity">HNpcEntity</a></li>
+<li class="circle">com.hakan.core.hologram.line.<a href="com/hakan/core/hologram/line/HologramLine.html" class="type-name-link" title="interface in com.hakan.core.hologram.line">HologramLine</a>
+<ul>
+<li class="circle">com.hakan.core.hologram.line.item.<a href="com/hakan/core/hologram/line/item/ItemLine.html" class="type-name-link" title="interface in com.hakan.core.hologram.line.item">ItemLine</a></li>
+<li class="circle">com.hakan.core.hologram.line.text.<a href="com/hakan/core/hologram/line/text/TextLine.html" class="type-name-link" title="interface in com.hakan.core.hologram.line.text">TextLine</a></li>
+</ul>
+</li>
 <li class="circle">com.hakan.core.particle.wrapper.<a href="com/hakan/core/particle/wrapper/HParticleWrapper.html" class="type-name-link" title="interface in com.hakan.core.particle.wrapper">HParticleWrapper</a></li>
 <li class="circle">com.hakan.core.message.title.<a href="com/hakan/core/message/title/HTitleHandler.html" class="type-name-link" title="interface in com.hakan.core.message.title">HTitleHandler</a></li>
 <li class="circle">com.hakan.core.worldborder.border.<a href="com/hakan/core/worldborder/border/HWorldBorder.html" class="type-name-link" title="interface in com.hakan.core.worldborder.border">HWorldBorder</a></li>
@@ -261,6 +270,7 @@ loadScripts(document, 'script');</script>
 <h2 title="Annotation Interface Hierarchy">Annotation Interface Hierarchy</h2>
 <ul>
 <li class="circle">com.hakan.core.command.executors.base.<a href="com/hakan/core/command/executors/base/BaseCommand.html" class="type-name-link" title="annotation interface in com.hakan.core.command.executors.base">BaseCommand</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
+<li class="circle">com.hakan.core.command.executors.placeholder.<a href="com/hakan/core/command/executors/placeholder/Placeholder.html" class="type-name-link" title="annotation interface in com.hakan.core.command.executors.placeholder">Placeholder</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
 <li class="circle">com.hakan.core.command.executors.sub.<a href="com/hakan/core/command/executors/sub/SubCommand.html" class="type-name-link" title="annotation interface in com.hakan.core.command.executors.sub">SubCommand</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
 </ul>
 </section>
