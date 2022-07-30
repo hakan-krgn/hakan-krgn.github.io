@@ -7,10 +7,13 @@ com.hakan.core.command.listeners
 com.hakan.core.command.utils
 com.hakan.core.database
 com.hakan.core.hologram
+com.hakan.core.hologram.action
+com.hakan.core.hologram.event
 com.hakan.core.hologram.line
 com.hakan.core.hologram.line.empty
 com.hakan.core.hologram.line.item
 com.hakan.core.hologram.line.text
+com.hakan.core.hologram.listeners
 com.hakan.core.hologram.util
 com.hakan.core.item
 com.hakan.core.item.nbt
