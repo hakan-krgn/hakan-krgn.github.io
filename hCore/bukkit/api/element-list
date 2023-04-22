@@ -50,6 +50,7 @@ com.hakan.core.packet.utils
 com.hakan.core.particle
 com.hakan.core.particle.type
 com.hakan.core.particle.wrapper
+com.hakan.core.pathfinder
 com.hakan.core.plugin
 com.hakan.core.protocol
 com.hakan.core.renderer
